@@ -13,7 +13,7 @@ export function LoginMain(): JSX.Element {
           imgClassName='object-cover'
           blurClassName='bg-accent-blue'
           src='/assets/twitter-banner.png'
-          alt='Twitter banner'
+          alt='Suckdemtoes banner'
           layout='fill'
           useSkeleton
         />
@@ -30,11 +30,11 @@ export function LoginMain(): JSX.Element {
         </i>
         <div className='flex max-w-xs flex-col gap-4 font-twitter-chirp-extended lg:max-w-none lg:gap-16'>
           <h1
-            className='text-3xl before:content-["See_what’s_happening_in_the_world_right_now."] 
+            className='text-3xl before:content-["See_what’s_happening_in_the_world_right_now."]
                        lg:text-6xl lg:before:content-["Happening_now"]'
           />
           <h2 className='hidden text-xl lg:block lg:text-3xl'>
-            Join Twitter today.
+            Join SuckDemToes today.
           </h2>
         </div>
         <div className='flex max-w-xs flex-col gap-6 [&_button]:py-2'>
@@ -71,7 +71,7 @@ export function LoginMain(): JSX.Element {
             >
               By signing up, you agree to the{' '}
               <a
-                href='https://twitter.com/tos'
+                href='https://suckdemtoes.com/tos'
                 target='_blank'
                 rel='noreferrer'
               >
@@ -79,7 +79,7 @@ export function LoginMain(): JSX.Element {
               </a>{' '}
               and{' '}
               <a
-                href='https://twitter.com/privacy'
+                href='https://SuckDemToes.com/privacy'
                 target='_blank'
                 rel='noreferrer'
               >
@@ -87,7 +87,7 @@ export function LoginMain(): JSX.Element {
               </a>
               , including{' '}
               <a
-                href='https://help.twitter.com/rules-and-policies/twitter-cookies'
+                href='https://help.SuckDemToes.com/rules-and-policies/suckdemtoes-cookies'
                 target='_blank'
                 rel='noreferrer'
               >

@@ -41,7 +41,7 @@ export function UserHomeLayout({ children }: LayoutProps): JSX.Element {
     <>
       {userData && (
         <SEO
-          title={`${`${userData.name} (@${userData.username})`} / Twitter`}
+          title={`${`${userData.name} (@${userData.username})`} / SuckDemToes`}
         />
       )}
       <motion.section {...variants} exit={undefined}>
@@ -76,7 +76,7 @@ export function UserHomeLayout({ children }: LayoutProps): JSX.Element {
                     <UserShare username={userData.username} />
                     <Button
                       className='dark-bg-tab group relative cursor-not-allowed border border-light-line-reply p-2
-                                 hover:bg-light-primary/10 active:bg-light-primary/20 dark:border-light-secondary 
+                                 hover:bg-light-primary/10 active:bg-light-primary/20 dark:border-light-secondary
                                  dark:hover:bg-dark-primary/10 dark:active:bg-dark-primary/20'
                     >
                       <HeroIcon className='h-5 w-5' iconName='EnvelopeIcon' />

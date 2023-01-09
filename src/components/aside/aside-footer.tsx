@@ -1,18 +1,18 @@
 const footerLinks = [
-  ['Terms of Service', 'https://twitter.com/tos'],
-  ['Privacy Policy', 'https://twitter.com/privacy'],
-  ['Cookie Policy', 'https://support.twitter.com/articles/20170514'],
-  ['Accessibility', 'https://help.twitter.com/resources/accessibility'],
+  ['Terms of Service', 'https://suckdemtoes.com/tos'],
+  ['Privacy Policy', 'https://suckdemtoes.com/privacy'],
+  ['Cookie Policy', 'https://support.suckdemtoes.com/articles/20170514'],
+  ['Accessibility', 'https://help.suckdemtoes.com/resources/accessibility'],
   [
     'Ads Info',
-    'https://business.twitter.com/en/help/troubleshooting/how-twitter-ads-work.html'
+    'https://business.suckdemtoes.com/en/help/troubleshooting/how-suckdemtoes-ads-work.html'
   ]
 ] as const;
 
 export function AsideFooter(): JSX.Element {
   return (
     <footer
-      className='sticky top-16 flex flex-col gap-3 text-center text-sm 
+      className='sticky top-16 flex flex-col gap-3 text-center text-sm
                  text-light-secondary dark:text-dark-secondary'
     >
       <nav className='flex flex-wrap justify-center gap-2'>
@@ -28,7 +28,7 @@ export function AsideFooter(): JSX.Element {
           </a>
         ))}
       </nav>
-      <p>© 2022 Twitter, Inc.</p>
+      <p>© 2023 SuckDemToes, Inc.</p>
     </footer>
   );
 }
