@@ -1,6 +1,6 @@
 const footerLinks = [
   ['About', 'https://about.suckdemtoes.com'],
-  ['Help Center', a'https://help.suckdemtoes.com'],
+  ['Help Center', 'https://help.suckdemtoes.com'],
   ['Privacy Policy', 'https://suckdemtoes.com/tos'],
   ['Cookie Policy', 'https://support.suckdemtoes.com/articles/20170514'],
   ['Accessibility', 'https://help.suckdemtoes.com/resources/accessibility'],
