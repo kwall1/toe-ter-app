@@ -43,7 +43,7 @@ export function TweetShare({
                 </Link>
               </span>
             )
-          : 'Tweet removed from your bookmarks'
+          : 'Toe-eet removed from your bookmarks'
       );
     };
 
@@ -61,14 +61,14 @@ export function TweetShare({
         <>
           <Popover.Button
             className={cn(
-              `group relative flex items-center gap-1 p-0 outline-none 
+              `group relative flex items-center gap-1 p-0 outline-none
                transition-none hover:text-accent-blue focus-visible:text-accent-blue`,
               open && 'text-accent-blue inner:bg-accent-blue/10'
             )}
           >
             <i
-              className='relative rounded-full p-2 not-italic duration-200 group-hover:bg-accent-blue/10 
-                         group-focus-visible:bg-accent-blue/10 group-focus-visible:ring-2 
+              className='relative rounded-full p-2 not-italic duration-200 group-hover:bg-accent-blue/10
+                         group-focus-visible:bg-accent-blue/10 group-focus-visible:ring-2
                          group-focus-visible:ring-accent-blue/80 group-active:bg-accent-blue/20'
             >
               <HeroIcon
@@ -92,7 +92,7 @@ export function TweetShare({
                   onClick={preventBubbling(handleCopy(close))}
                 >
                   <HeroIcon iconName='LinkIcon' />
-                  Copy link to Tweet
+                  Copy link to Toe-eet
                 </Popover.Button>
                 {!tweetIsBookmarked ? (
                   <Popover.Button
@@ -114,7 +114,7 @@ export function TweetShare({
                     )}
                   >
                     <HeroIcon iconName='BookmarkSlashIcon' />
-                    Remove Tweet from Bookmarks
+                    Remove Toe-eet from Bookmarks
                   </Popover.Button>
                 )}
               </Popover.Panel>
