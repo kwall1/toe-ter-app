@@ -43,7 +43,7 @@ export function DisplayModal({ closeModal }: DisplayModalProps): JSX.Element {
             <div className='flex gap-1'>
               <UserName verified name='Twitter' />
               <p className='text-light-secondary dark:text-dark-secondary'>
-                @twitter
+                @SuckDemToes
               </p>
               <div className='flex gap-1 text-light-secondary dark:text-dark-secondary'>
                 <i>·</i>
@@ -51,7 +51,7 @@ export function DisplayModal({ closeModal }: DisplayModalProps): JSX.Element {
               </div>
             </div>
             <p className='whitespace-pre-line break-words'>
-              At the heart of SuckDemToes are short messages called Toweets — just
+              At the heart of SuckDemToes are short messages called Toe-eets — just
               like this one — which can include photos, videos, links, text,
               hashtags, and mentions like{' '}
               <span className='text-main-accent'>@suckdemtoes</span>.

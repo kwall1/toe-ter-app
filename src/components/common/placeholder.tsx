@@ -6,7 +6,7 @@ export function Placeholder(): JSX.Element {
     <main className='flex min-h-screen items-center justify-center'>
       <SEO
         title='SuckDemToes'
-        description='From breaking news and entertainment to sports and politics, get the full story with all the live commentary.'
+        description='Toe Sucking Goodness.'
         image='/home.png'
       />
       <i>

@@ -93,7 +93,7 @@ export function Tweet(tweet: TweetProps): JSX.Element {
       <Link href={tweetLink} scroll={!reply}>
         <a
           className={cn(
-            `accent-tab hover-card relative flex flex-col 
+            `accent-tab hover-card relative flex flex-col
              gap-y-4 px-4 py-3 outline-none duration-200`,
             parentTweet
               ? 'mt-0.5 pt-2.5 pb-0'
@@ -105,14 +105,14 @@ export function Tweet(tweet: TweetProps): JSX.Element {
             <AnimatePresence initial={false}>
               {modal ? null : pinned ? (
                 <TweetStatus type='pin'>
-                  <p className='text-sm font-bold'>Pinned Tweet</p>
+                  <p className='text-sm font-bold'>Pinned Toe-eet</p>
                 </TweetStatus>
               ) : (
                 tweetIsRetweeted && (
                   <TweetStatus type='tweet'>
                     <Link href={profileUsername as string}>
                       <a className='custom-underline truncate text-sm font-bold'>
-                        {userId === profileId ? 'You' : profileName} Retweeted
+                        {userId === profileId ? 'You' : profileName} Retoe-eeted
                       </a>
                     </Link>
                   </TweetStatus>
