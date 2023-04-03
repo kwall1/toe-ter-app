@@ -41,7 +41,7 @@ export default function UserWithReplies(): JSX.Element {
   return (
     <section>
       <SEO
-        title={`Tweets with replies by ${name as string} (@${
+        title={`Toe-eets with replies by ${name as string} (@${
           username as string
         }) / SuckDemToes`}
       />
@@ -49,8 +49,8 @@ export default function UserWithReplies(): JSX.Element {
         <Loading className='mt-5' />
       ) : !data ? (
         <StatsEmpty
-          title={`@${username as string} hasn't tweeted`}
-          description='When they do, their Tweets will show up here.'
+          title={`@${username as string} hasn't toe-eeted`}
+          description='When they do, their Toe-eets will show up here.'
         />
       ) : (
         <AnimatePresence mode='popLayout'>
