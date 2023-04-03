@@ -25,7 +25,7 @@ export function TweetDate({
               viewTweet && 'text-light-secondary dark:text-dark-secondary'
             )}
           >
-            {formatDate(createdAt, viewTweet ? 'full' : 'toe-eet')}
+            {formatDate(createdAt, viewTweet ? 'full' : 'tweet')}
           </a>
         </Link>
         <ToolTip
