@@ -83,7 +83,7 @@ export function InputOptions({
   return (
     <motion.div className='flex justify-between' {...variants}>
       <div
-        className='flex text-main-accent xs:[&>button:nth-child(n+6)]:hidden 
+        className='flex text-main-accent xs:[&>button:nth-child(n+6)]:hidden
                    md:[&>button]:!block [&>button:nth-child(n+4)]:hidden'
       >
         <input
@@ -96,7 +96,7 @@ export function InputOptions({
         />
         {filteredOptions.map(({ name, iconName, disabled }, index) => (
           <Button
-            className='accent-tab accent-bg-tab group relative rounded-full p-2 
+            className='accent-tab accent-bg-tab group relative rounded-full p-2
                        hover:bg-main-accent/10 active:bg-main-accent/20'
             onClick={index === 0 ? onClick : undefined}
             disabled={disabled}
@@ -141,7 +141,7 @@ export function InputOptions({
                      enabled:active:bg-main-accent/75'
           disabled={!isValidTweet}
         >
-          {reply ? 'Reply' : 'Tweet'}
+          {reply ? 'Reply' : 'Toe-eet'}
         </Button>
       </div>
     </motion.div>
